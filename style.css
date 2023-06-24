@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: orangered;
+}
+
+h3 {
+  text-align: center;
+  color: orangered;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+  text-align: center;
+  color: orangered;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: antiquewhite;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: none;
+}
+
+li a {
+  display: block;
+  color: orangered;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: wheat;
+}
+
+.active {
+  background-color: wheat;
+}
+
+.skill-container {
+  border: solid orangered;
+  width: 400px;
+  margin: auto;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
