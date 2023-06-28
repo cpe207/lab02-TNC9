@@ -6,32 +6,44 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
-  <body bgcolor="antiquewhite">
+  <body style="background-color: antiquewhite">
     <h1>🔸🧡My Portfolio🧡🔸</h1>
 
     <ul>
       <li><a class="active" href="index.html">Home🏠</a></li>
       <li><a href="experience.html">Experience🧪</a></li>
+      <li><a href="gallery.html">Gallery📷</a></li>
       <li><a href="contact.html">Contact📞</a></li>
     </ul>
     <br />
 
-    <img
-      src="Pic/me.jpg"
-      width="200px"
-      style="
-        border-radius: 40%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        filter: drop-shadow(0 0 10px rgba(156, 87, 87, 0.5));
-      "
-    />
-    <p>
-      Hi ! My name Benz. Studied at Faculty of Engineering, Chiang Mai
-      University. ⚙️ <br />
-      Nice to meet you all. 👋
-    </p>
+    <div style="max-width: 40rem; margin: 0 auto">
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <img
+          src="Pic/me.jpg"
+          width="200px"
+          style="
+            border-radius: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid blanchedalmond;
+            filter: drop-shadow(0 0 10px rgba(179, 113, 20, 0.5));
+          "
+        />
+        <p style="text-align: center; margin-left: 1rem">
+          Hi! My name is Benz. I studied at Faculty of Engineering, Chiang Mai
+          University. ⚙️ <br />
+          Nice to meet you all. 👋
+        </p>
+      </div>
+    </div>
 
     <h3>Skill</h3>
     <div class="skill-container">

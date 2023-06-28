@@ -10,6 +10,11 @@ h3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+h5 {
+  color: orangered;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
 p {
   text-align: center;
   color: orangered;
@@ -48,6 +53,8 @@ li a:hover:not(.active) {
 
 .skill-container {
   border: solid orangered;
+  background-color: blanchedalmond;
+  border-radius: 10px;
   width: 400px;
   margin: auto;
   padding-left: 16px;
